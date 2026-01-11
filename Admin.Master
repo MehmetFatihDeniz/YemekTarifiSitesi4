@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true"
+    CodeBehind="Admin.Master.cs"
+    Inherits="YemekTarifiSitesi4.Admin" %>
+
+<!DOCTYPE html>
+<html lang="tr">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>Admin Panel - Yemek Tarifi Sitesi</title>
+
+    <link href="Admin.css" rel="stylesheet" />
+</head>
+<body>
+    <form runat="server">
+
+        <div class="admin-container">
+
+            <header class="admin-header">
+                <asp:Image ID="Image1" runat="server"
+                    CssClass="admin-banner"
+                    ImageUrl="~/Banner Photos/admin.png"
+                    AlternateText="Admin Panel" />
+            </header>
+
+            <main class="admin-layout">
+
+                <nav class="admin-sidebar">
+                    <div class="admin-sidebar-title">MENÜLER</div>
+
+                    <a class="admin-link" href="Kategoriler.aspx">KATEGORİLER</a>
+                    <a class="admin-link" href="Yemekler.aspx">YEMEKLER</a>
+                    <a class="admin-link" href="Yorumlar.aspx">YORUMLAR</a>
+                    <a class="admin-link" href="Mesajlar.aspx">MESAJLAR</a>
+                    <a class="admin-link" href="GununYemegiAdmin.aspx">GÜNÜN YEMEĞİ</a>
+                    <a class="admin-link" href="Tarifler.aspx">TARİFLER</a>
+                    <a class="admin-link" href="HakkimizdaAdmin.aspx">HAKKIMIZDA</a>
+                    <a class="admin-link" href="AnaSayfa.aspx">Ana Sayfaya Dön</a>
+                    <a class="admin-link" href="AdminCikis.aspx">ÇIKIŞ</a>
+
+
+                </nav>
+
+                <section class="admin-content">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+                </section>
+
+            </main>
+
+        </div>
+
+    </form>
+</body>
+</html>

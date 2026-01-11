@@ -1,0 +1,44 @@
+﻿//------------------------------------------------------------------------------
+// <otomatik olarak oluşturulmuş>
+//     Bu kod bir araç tarafından oluşturuldu.
+//
+//     Bu dosyada yapılacak değişiklikler hatalı davranışa neden olabilir ve
+//     kod tekrar üretildi. 
+// </otomatik olarak oluşturulmuş>
+//------------------------------------------------------------------------------
+
+namespace YemekTarifiSitesi4
+{
+
+
+    public partial class SiteMaster
+    {
+
+        /// <summary>
+        /// Image1 denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik olarak oluşturulan alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image Image1;
+
+        /// <summary>
+        /// DataList1 denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik olarak oluşturulan alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DataList DataList1;
+
+        /// <summary>
+        /// MainContent denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik olarak oluşturulan alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+    }
+}
